@@ -1,0 +1,19 @@
+# IntelliJ IDEA 配置
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java 编译产物
+out/
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
