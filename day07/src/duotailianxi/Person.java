@@ -1,6 +1,6 @@
 package duotailianxi;
 
-public class person {
+public class Person {
 //    3.定义Person类 饲养员
 //    属性：
 //    姓名，年龄
@@ -15,10 +15,10 @@ public class person {
     private String name;
     private int age;
 
-    public person() {
+    public Person() {
     }
 
-    public person(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
