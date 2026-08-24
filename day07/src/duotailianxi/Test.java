@@ -46,7 +46,7 @@ public class Test {
         Cat c=new Cat(3,"白");
         p2.keepPet(c,"鱼");*/
 
-        person p=new person("老王",30);
+        Person p=new Person("老王",30);
         Cat c=new Cat(3,"白");
         Dog d=new Dog(2,"黑");
         p.keepPet(d,"骨头");
