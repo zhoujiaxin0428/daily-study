@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI (uvicorn 8000)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--reload",
+                "--port",
+                "8000"
+            ],
+            "cwd": "${workspaceFolder}",
+            "jinja": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Flask (5000)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/app_flask.py",
+            "cwd": "${workspaceFolder}",
+            "jinja": true,
+            "justMyCode": true
+        },
+        {
+            "name": "当前 Python 文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}
